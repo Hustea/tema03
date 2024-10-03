@@ -1,8 +1,10 @@
+
 package com.adrian.tema03;
 
 import java.util.Scanner;
 
 public class Ejercicio6 {
+    /*
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -29,5 +31,7 @@ public class Ejercicio6 {
                 System.out.println(numMonedas + " monedas de " + valor / 100.0 + "€");
             }
         }
-    }
+    }*/
 }
+
+
