@@ -3,7 +3,7 @@ package com.adrian.tema03.bucle;
 public class Ejercicio5 {
     public static void main(String[] args) {
 
-        int contador;
+        int i;
         int limite;
         int multiple5;
         int multiple5Total;
@@ -13,7 +13,7 @@ public class Ejercicio5 {
         int imparTotal;
 
 
-        contador = 1;
+        i = 1;
         limite = 100;
         multiple5 = 0;
         par = 0;
@@ -22,27 +22,27 @@ public class Ejercicio5 {
         parTotal = 0;
         imparTotal = 0;
 
-        while (contador <= limite){
-            System.out.print(contador);
+        while (i <= limite){
+            System.out.print(i);
 
-            if(contador % 2 == 0){
+            if(i % 2 == 0){
                 System.out.println(" Es par");
                 par = par + 1;
-                parTotal = parTotal + contador;
+                parTotal = parTotal + i;
 
             }else{
                 System.out.println(" Es inpar");
                 impar = impar + 1;
-                imparTotal = imparTotal + contador;
+                imparTotal = imparTotal + i;
             }
 
-            if (contador % 5 == 0){
+            if (i % 5 == 0){
                 System.out.println("Es multiple de 5");
                 multiple5 = multiple5 + 1;
-                multiple5Total = multiple5Total + contador;
-            }else{}
+                multiple5Total = multiple5Total + i;
+            }
 
-            contador = contador + 1;
+            i = i + 1;
         }
 
         System.out.println("El numero de multiples de 5 es " +multiple5+ " y la suma de todos ellos es " +multiple5Total);
