@@ -25,12 +25,7 @@ public class Ejercicio5 {
         while (contador <= limite){
             System.out.print(contador);
 
-            if (contador % 5 == 0){
-                System.out.println(" Es multiple de 5");
-                multiple5 = multiple5 + 1;
-                multiple5Total = multiple5Total + contador;
-
-            }else if(contador % 2 == 0){
+            if(contador % 2 == 0){
                 System.out.println(" Es par");
                 par = par + 1;
                 parTotal = parTotal + contador;
@@ -40,6 +35,12 @@ public class Ejercicio5 {
                 impar = impar + 1;
                 imparTotal = imparTotal + contador;
             }
+
+            if (contador % 5 == 0){
+                System.out.println("Es multiple de 5");
+                multiple5 = multiple5 + 1;
+                multiple5Total = multiple5Total + contador;
+            }else{}
 
             contador = contador + 1;
         }
