@@ -13,6 +13,7 @@ public class Ejercicio4 {
 
         while (contador <= limite){
             if (contador % 2 != 0){
+                System.out.println (contador)
                 impar = impar + 1;
             }
             contador = contador + 1;
