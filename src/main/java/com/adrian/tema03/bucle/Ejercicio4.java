@@ -19,6 +19,6 @@ public class Ejercicio4 {
             contador = contador + 1;
         }
 
-        System.out.println (impar);
+        System.out.println ("Hay "+impar+" numeros impares");
     }
 }
