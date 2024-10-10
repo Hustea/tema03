@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package com.adrian.tema03.bucle;
 
 import java.util.Scanner;
 
