@@ -14,12 +14,12 @@ public class Ejercicio16 {
         int totalMaquina = 0;
         int puntosJugador = 0;
         int puntosMaquina = 0;
-        String confirmarJuego = "N";
+        String confirmarJuego;
 
         do{
             System.out.println(" VAMOS A JUGAR");
             do{
-                String confirmarDado = "S";
+                String confirmarDado;
                 do{
                     dadoJugador = rnd.nextInt(1, 7);
                     totalJugador = totalJugador + dadoJugador;
@@ -58,14 +58,17 @@ public class Ejercicio16 {
                             puntosJugador = puntosJugador + 1;
                             System.out.println("La maquina a sobrepasado el limite, tu obtienes 1 porra.");
                             System.out.println("tu tienes " +puntosJugador+ " porras, la maquina tiene " +puntosMaquina+ " porras.");
+                            break;
                         }else if(totalMaquina == 11){
                             puntosMaquina = puntosMaquina + 2;
                             System.out.println("PUNTUACION PERFECTA,  la maquina obtiene 2 porras.");
                             System.out.println("tu tienes " +puntosJugador+ " porras, la maquina tiene " +puntosMaquina+ " porras.");
+                            break;
                         }else if(totalMaquina > totalJugador){
                             puntosMaquina = puntosMaquina + 1;
                             System.out.println("La maquina ha superado tu puntuacion y gana 1 porra");
                             System.out.println("tu tienes " +puntosJugador+ " porras, la maquina tiene " +puntosMaquina+ " porras.");
+                            break;
                         }
                     }while(totalMaquina <= totalJugador);
 
