@@ -34,6 +34,7 @@ public class Ejercicio16 {
                         puntosJugador = puntosJugador + 2;
                         System.out.println("PUNTUACION PERFECTA, obtienes 2 porra.");
                         System.out.println("tu tienes " +puntosJugador+ " porras, la maquina tiene " +puntosMaquina+ " porras.");
+                        break;
                     }else{
                         System.out.println("¿Quieres volver a tirar el dado? S/N");
                         confirmarDado = scanner.nextLine();
