@@ -78,7 +78,6 @@ public class Ejercicio16 {
                     }else if(puntosMaquina >= 5){
                         System.out.println("HAS PERDIDIO");
                     }
-
                 }
                 totalJugador = 0;
                 totalMaquina = 0;
@@ -91,8 +90,5 @@ public class Ejercicio16 {
             confirmarJuego = scanner.nextLine();
 
         }while(confirmarJuego.equals("S"));
-
-
-
     }
 }

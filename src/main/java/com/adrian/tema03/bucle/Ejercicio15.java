@@ -18,15 +18,15 @@ public class Ejercicio15 {
             System.out.println("pon los segundos: ");
             s = scanner.nextInt();
 
-            if (h < 0 || h > 24) {
+            if (h > 0 || h < 24) {
                 System.out.println("Has puesto la hora mal");
                 i++;
             }
-            if (m < 0 || m > 60) {
+            if (m > 0 || m < 60) {
                 System.out.println("Has puesto los minutos mal");
                 i++;
             }
-            if (s < 0 || s > 60) {
+            if (s > 0 || s < 60) {
                 System.out.println("Has puesto los segundos mal");
                 i++;
             }
