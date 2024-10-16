@@ -2,6 +2,7 @@ package com.adrian.tema03.ANSI;
 
 public class Ejercicio8 {
     public static void main(String[] args) {
+        String cadena = "";
         int color = 29;
         int fondo = 39;
         for (int negrita = 0; negrita <= 1; negrita++) {
