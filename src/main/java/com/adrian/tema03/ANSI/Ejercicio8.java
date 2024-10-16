@@ -18,7 +18,7 @@ public class Ejercicio8 {
                     }
                     System.out.printf("\u001B["+negrita+";"+color+";"+fondo+"m "+negrita+";"+color+";"+fondo+" \u001B[0m" ,cadena);
                 }
-                System.out.println("");
+                System.out.println();
             }
         }
     }
