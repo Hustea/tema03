@@ -6,11 +6,11 @@ public class Ejercicio06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String mensaje = "ingrese un unico caracter:";
-        int longitud = 1;
         int cantidad, lineas;
-        String caracter;
-        caracter = solicitarString(mensaje, longitud);
+        char caracter;
+        System.out.println("Escribe un carater");
+        caracter = scanner.next().charAt(0);
+
 
         System.out.println("Ingrese la cantidad de repeticiones por linia");
         cantidad = scanner.nextInt();
@@ -26,7 +26,7 @@ public class Ejercicio06 {
      * @param caracter el caracter
      * @param cantidad la cantidad de veces
      */
-    public static void imprimirCaracteres(String caracter, int cantidad, int lineas) {
+    public static void imprimirCaracteres(char caracter, int cantidad, int lineas) {
         for(int i = 0; i < lineas; i++){
             for (int j = 0; j < cantidad; j++) {
                 System.out.print(caracter);
@@ -34,13 +34,13 @@ public class Ejercicio06 {
             System.out.println(caracter);
         }
     }
-
+/*
     /**
      * solicitar un texto y validar su longitud
      * @param mensaje Mensaje que se le mostrara al usuario
      * @param longitud Numero de caracteres que debe tener el texto
      * @return el texto leido validado
-     */
+
     public static String solicitarString(String mensaje, int longitud) {
         Scanner scanner = new Scanner(System.in);
         String x;
@@ -56,4 +56,5 @@ public class Ejercicio06 {
         scanner.close();
         return x;
     }
+    */
 }
