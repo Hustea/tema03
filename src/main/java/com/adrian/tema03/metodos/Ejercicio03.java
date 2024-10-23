@@ -15,7 +15,7 @@ public class Ejercicio03 {
         System.out.println("Ingrese el valor de y");
         y = scanner.nextInt();
 
-        numeroMayor = Mayor(x, y);
+        numeroMayor = mayor(x, y);
 
         System.out.println("El mayor de los dos es " + numeroMayor);
     }
@@ -26,7 +26,7 @@ public class Ejercicio03 {
      * @param b El segundo numero
      * @return El mayor entre a y b
      */
-    public static int Mayor(int a, int b) {
+    public static int mayor(int a, int b) {
         if(a<b){
             return b;
         }else{

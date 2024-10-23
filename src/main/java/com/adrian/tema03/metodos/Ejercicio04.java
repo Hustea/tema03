@@ -21,7 +21,7 @@ public class Ejercicio04 {
         System.out.println("Ingrese el valor de b");
         b = scanner.nextInt();
 
-        numeroMayor = Mayor(x, y, a, b);
+        numeroMayor = mayor(x, y, a, b);
 
         System.out.println("El mayor de los quatro es " + numeroMayor);
     }
@@ -34,7 +34,7 @@ public class Ejercicio04 {
      * @param b El quarto numero
      * @return El mayor entre a, b, x, y
      */
-    public static int Mayor(int x, int y, int a, int b) {
+    public static int mayor(int x, int y, int a, int b) {
         int mayor = x;
 
         if(mayor < y){
