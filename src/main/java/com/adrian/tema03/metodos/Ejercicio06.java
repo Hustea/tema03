@@ -31,7 +31,7 @@ public class Ejercicio06 {
             for (int j = 0; j < cantidad; j++) {
                 System.out.print(caracter);
             }
-            System.out.print(caracter);
+            System.out.println(caracter);
         }
     }
 
