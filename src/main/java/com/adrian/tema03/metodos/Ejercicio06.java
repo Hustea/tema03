@@ -35,27 +35,4 @@ public class Ejercicio06 {
             System.out.println(caracter);
         }
     }
-/*
-    /**
-     * solicitar un texto y validar su longitud
-     * @param mensaje Mensaje que se le mostrara al usuario
-     * @param longitud Numero de caracteres que debe tener el texto
-     * @return el texto leido validado
-
-    public static String solicitarString(String mensaje, int longitud) {
-        Scanner scanner = new Scanner(System.in);
-        String x;
-        boolean valido;
-        do {
-            System.out.println(mensaje);
-            x = scanner.nextLine();
-            valido = x.length() < longitud +1 && x.length() > longitud -1;
-            if(!valido){
-                System.err.println("Longitud invalida");
-            }
-        }while(!valido);
-        scanner.close();
-        return x;
-    }
-    */
 }
