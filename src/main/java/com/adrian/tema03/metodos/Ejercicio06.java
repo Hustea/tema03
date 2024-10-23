@@ -22,9 +22,10 @@ public class Ejercicio06 {
     }
 
     /**
-     * Escribir un caracter una cantidad de veces determinada
-     * @param caracter el caracter
-     * @param cantidad la cantidad de veces
+     * Escribe un caracter una cantidad de veces determinada
+     * @param caracter El caracter que debe imprimir
+     * @param cantidad Cantidad de impresiones por linea
+     * @param lineas Cantidad de lineas
      */
     public static void imprimirCaracteres(char caracter, int cantidad, int lineas) {
         for(int i = 0; i < lineas; i++){
